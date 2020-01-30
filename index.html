@@ -2,28 +2,36 @@
 <html lang="kor">
 <head>
 
-
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
-
-  <title>양초를 팝니다</title>
-
-  <link href="https://fonts.googleapis.com/css?family=Noto+Serif+KR&display=swap" rel="stylesheet">
   <style>
-    body {
-      font-family: 'Noto Serif KR', serif;
-    }
-  </style>
+
+   .mytitle {
+
+    vertical-align:text-bottom;
+  }
+</style>
+
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+
+
+<title>양초를 팝니다</title>
+
+<link href="https://fonts.googleapis.com/css?family=Noto+Serif+KR&display=swap" rel="stylesheet">
+<style>
+  body {
+    font-family: 'Noto Serif KR', serif;
+  }
+</style>
 </head>
 <body>
 
   <div class="container">
-    
+
     <div class="row">
       <div class="text-center">
         <img src="http://mblogthumb2.phinf.naver.net/MjAxNzEyMjhfMjYy/MDAxNTE0NDI5NDc2OTEz.BkLw6jQ23EDmAjN1yUDoyO4v1STiHC5iEimbzC4mGmcg.8BUzf6TE1nmCljD7e2SFNKJJ0t0MHkHW40nIt6C5pDwg.JPEG.designpress2016/3.jpg?type=w800" class="rounded mx-auto d-block">
@@ -31,9 +39,9 @@
     </div>
 
     <div class="row">
-      <h1>양초를 팝니다</h1> </br>
+      <h1 class = "shop-title">양초를 팝니다</h1> 
 
-      <h5>가격: 3,000원/개</h5>
+      <h5 class="mytitle">가격: 3,000원/개</h5> 
       <p>
         <h6>이 양초는 사실 특별한 힘을 가지고 있어요. 양초를 켜고 소원을 빌면 짜자잔 뭐든지 이뤄지게 된답니다. 하나 사가세요! 대나무 향이 아주 좋아요</h6>
       </p>
@@ -85,16 +93,24 @@
 
 
     <div class="text-center">
-      <button type="button" class="btn btn-primary">주문하기</button>
+      <button type="button" class="btn btn-primary" 
+      onclick="aaaa('차사')">주문하기</button>
     </div>
+
   </div>
 
-</div>
 
-<!-- Optional JavaScript -->
-<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+  <script>
+    function aaaa ()
+    alert("차사")
+  </script>
+
 </body>
 </html>
